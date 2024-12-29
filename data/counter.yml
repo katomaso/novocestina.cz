@@ -1,0 +1,14 @@
+enable : true
+heading : "Život ulehčen o"
+counter_item:
+  - title: "Vijmenovaných slov"
+    number: "84"
+
+  - title: "Rody neživích věcí"
+    number: "3"
+
+  - title: "Vzory přídavných jmen"
+    number: "2"
+
+  - title: "Diktátů"
+    number: "∞"

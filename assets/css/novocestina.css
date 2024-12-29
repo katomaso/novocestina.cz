@@ -1,0 +1,27 @@
+
+.site-hero-content h2 {
+    font-size: 30px;
+    color: #2f3336;
+    margin-bottom: 15pt;
+}
+
+.site-hero-content ul {
+    padding: 0 10pt;
+}
+
+.site-hero-content ul li {
+    color: #000;
+    font-size: 14pt;
+    list-style: none;
+}
+
+@media(max-width:450px) {
+    .site-hero-content h2 {
+        font-size: 25px;
+    }
+    .site-hero-content ul li {
+        color: #000;
+        font-size: 12pt;
+        list-style: none;
+    }
+}

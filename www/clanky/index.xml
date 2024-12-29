@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Články napsané týmem novočeštiny. on Novočeština</title>
+    <link>https://www.novocestina.cz/clanky/</link>
+    <description>Recent content in Články napsané týmem novočeštiny. on Novočeština</description>
+    <generator>Hugo</generator>
+    <language>CS_cz</language>
+    <lastBuildDate>Fri, 20 Dec 2024 13:45:06 +0200</lastBuildDate>
+    <atom:link href="https://www.novocestina.cz/clanky/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hledání rovnováhy mezi vkusem a progresivismem</title>
+      <link>https://www.novocestina.cz/clanky/hledani-rovnovahy/</link>
+      <pubDate>Fri, 20 Dec 2024 13:45:06 +0200</pubDate>
+      <guid>https://www.novocestina.cz/clanky/hledani-rovnovahy/</guid>
+      <description>Návrh zjednodušení gramatiky je velká vízva. Je tolik možností&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+{{ with .Site.Params.banner }}
+  {{ if .enable }}
+  {{ "<!-- Site Hero Start -->" | safeHTML }}
+  <section class="site-hero" style="background: linear-gradient(to right, #f6b5b3 50%, #badfd8 50%);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="site-hero-content text-center">
+            <h6>{{ .tagline }}</h6>
+            <h1>
+              {{ .heading }}
+            </h1>
+
+            <div class="row">
+              <span class="col-sm-6 col-xs-12">
+                <h2 class="text-right">Co zmizí</h2>
+                <ul class="text-right">
+                  <li>Shoda podmětu s přísudkem</li>
+                  <li>Vijmenovaná slova</li>
+                  <li>Předpona vy/vý</li>
+                </ul>
+              </span>
+              <span class="col-sm-6 col-xs-12">
+                <h2 class="text-left">Co měníme</h2>
+                <ul class="text-left">
+                  <li>být -> bít</li>
+                  <li>mít -> mět</li>
+                  <li>vít -> vět</li>
+                  <li>sít -> set</li>
+                </ul>
+              </span>
+            </div>
+            <div class="row">
+              <span class="col-sm-6 col-xs-12 text-right">
+              <a href="{{ .primary_button_url | absURL }}" class="btn btn-primary">
+                <span class="btn-area">
+                  <span data-text="{{ .primary_button }}">
+                    {{ .primary_button }}
+                  </span>
+                </span>
+              </a>
+              </span>
+              <span class="col-sm-6 col-xs-12 text-left">
+                <a href="{{ .secondary_button_url | absURL }}" class="btn btn-secondary">
+                  <span class="btn-area">
+                    <span data-text="{{ .secondary_button }}">
+                      {{ .secondary_button }}
+                    </span>
+                  </span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#counter" class="site-hero-scroll scroll-to">
+      <img src="{{ "images/arrow-down.svg" | absURL }}" alt="arrow-down">
+    </a>
+  </section>
+  {{ "<!-- Site Hero End -->" | safeHTML }}
+  {{ end }}
+{{ end }}
